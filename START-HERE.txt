@@ -1,0 +1,12 @@
+GET YOUR .JAR WITH NO INSTALLS (about 5 minutes)
+
+1. Make a free account at github.com and click New repository (any name). Create it.
+2. On the new repo page click "uploading an existing file".
+3. Unzip this zip, open the folder, select EVERYTHING inside (including the hidden
+   ".github" folder) and drag it into the browser. Click Commit changes.
+   (Mac: press Cmd+Shift+. in Finder to show the hidden .github folder.)
+4. Click the "Actions" tab. Wait ~2 minutes for the green check.
+5. Click the finished run, scroll to "Artifacts", download DonutMarket-jar.
+6. Unzip that and put donutmarket-1.0.0.jar in your server's plugins folder. Restart.
+
+Server must be Paper 26.2 on Java 25.

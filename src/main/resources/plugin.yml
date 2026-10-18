@@ -1,0 +1,32 @@
+name: DonutMarket
+version: ${version}
+main: com.donutmarket.DonutMarketPlugin
+api-version: '26.2'
+description: Economy with an Auction House (/ah) and Buy Orders (/order)
+commands:
+  ah:
+    description: Open the Auction House
+    usage: /ah [sell <price>]
+    aliases: [auctionhouse, auction]
+  order:
+    description: Open the Orders menu
+    usage: /order [create <item> <amount> <price each>]
+    aliases: [orders]
+  bal:
+    description: Check your balance
+    usage: /bal
+    aliases: [balance, money]
+  pay:
+    description: Pay another player
+    usage: /pay <player> <amount>
+  eco:
+    description: Admin economy command
+    usage: /eco <give|take|set> <player> <amount>
+    permission: donutmarket.admin
+  rank:
+    description: View or set ranks
+    usage: /rank list | get <player> | set <player> <rank>
+permissions:
+  donutmarket.admin:
+    description: Use /eco
+    default: op
